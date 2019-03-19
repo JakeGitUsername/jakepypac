@@ -4,15 +4,15 @@ def sum_array(array):
     sum = 0
     for i in array:
         sum = sum + i
-        return sum
+    return sum
 
 
 def fibonacci(n):
     '''Return nth term in fibonacci sequence'''
     if n <= 1:
-       return n
+        return n
     else:
-       return(fibonacci(n-1) + fibonacci(n-2))
+        return(fibonacci(n-1) + fibonacci(n-2))
 
 def factorial(n):
     result = 1
@@ -25,6 +25,5 @@ def factorial(n):
     return result
 
 def reverse(word):
-
     '''Return word in reverse'''
     return word[::-1]
