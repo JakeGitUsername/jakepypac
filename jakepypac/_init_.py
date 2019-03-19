@@ -1,2 +1,2 @@
-from . import recursion
-from . import sorting
+from jakepypac import recursion
+from jakepypac import sorting
