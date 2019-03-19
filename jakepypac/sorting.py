@@ -11,15 +11,15 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
-        len_i = len(items)
-        if len_i == 1:
-            return items
+    len_i = len(items)
+    if len_i == 1:
+        return items
 
-        mid_point = int(len_i / 2)
-        i1 = merge_sort(items[:mid_point])
-        i2 = merge_sort(items[mid_point:])
+    mid_point = int(len_i / 2)
+    i1 = merge_sort(items[:mid_point])
+    i2 = merge_sort(items[mid_point:])
 
-        return merge(i1, i2)
+    return merge(i1, i2)
 
 def quick_sort(items):
 
