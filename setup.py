@@ -9,6 +9,6 @@ setup(
     long_description=open('README.md').read(),
     install_requires=['numpy'],
     url='https://github.com/JakeGitUsername/jakepypac.git',
-    author='<Jake Ruele>',
-    author_email='<rjruele@gmail.com>'
+    author='Jake Ruele',
+    author_email='rjruele@gmail.com'
 )
