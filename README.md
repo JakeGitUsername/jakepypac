@@ -1,5 +1,5 @@
 # jakepypac
-This library was created to provide different types of functions to be applied in solving particular problems in Data Science and Programming contexts.
+This library was created to provide an example of how to solve problems using the algortithms mentioned in the package.
 
 ## building this package locally
 `python setup.py sdist`
